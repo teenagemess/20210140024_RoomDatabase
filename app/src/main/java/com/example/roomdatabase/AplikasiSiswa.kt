@@ -1,5 +1,8 @@
 package com.example.roomdatabase
 
-class AplikasiSiswa {
+import android.app.Application
+import com.example.roomdatabase.repositori.ContainerApp
+import com.example.roomdatabase.repositori.ContainerDataApp
+class AplikasiSiswa : Application() {
 
 }
