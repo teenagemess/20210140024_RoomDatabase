@@ -1,4 +1,4 @@
-package com.example.roomdatabase.ui
+package com.example.roomdatabase.theme
 
 import android.app.Activity
 import android.os.Build
