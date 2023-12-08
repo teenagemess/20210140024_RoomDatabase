@@ -112,29 +112,28 @@ fun FormInputSiswa(
     ) {
         OutlinedTextField(value = detailSiswa.nama,
             onValueChange = {onValueChange(detailSiswa.copy(nama = it))},
-            label = { Text(stringResource(id = R.string.nama)) },
+            label = { Text(stringResource(id = R.string.nama))},
             modifier = Modifier.fillMaxWidth(),
             enabled = enabled,
             singleLine = true
         )
         OutlinedTextField(value = detailSiswa.alamat,
             onValueChange = {onValueChange(detailSiswa.copy(alamat = it))},
-            label = { Text(stringResource(id = R.string.alamat)) },
+            label = { Text(stringResource(id = R.string.alamat))},
             modifier = Modifier.fillMaxWidth(),
             enabled = enabled,
             singleLine = true
         )
         OutlinedTextField(value = detailSiswa.telpon,
             onValueChange = {onValueChange(detailSiswa.copy(telpon = it))},
-            label = { Text(stringResource(id = R.string.telpon)) },
+            label = { Text(stringResource(id = R.string.telpon))},
             modifier = Modifier.fillMaxWidth(),
             enabled = enabled,
             singleLine = true
         )
 
         if (enabled){
-            Text(
-                stringResource(id = R.string.required_field),
+            Text(stringResource(id = R.string.required_field),
                 modifier = Modifier.padding(start = dimensionResource(id = R.dimen.padding_medium))
             )
         }
