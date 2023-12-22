@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.roomdabase"
+        applicationId = "com.example.roomdatbase"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
